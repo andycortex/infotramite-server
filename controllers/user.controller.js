@@ -3,7 +3,7 @@ const { response } = require('express');
 // Get
 const GetAllUser = (req, res = response) =>{
     res.status(200).json({
-        msg: 'get api - controller',
+        msg: 'get api - controller con modificaciones',
     })
 }
 // Post
